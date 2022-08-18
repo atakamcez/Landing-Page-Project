@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    flex: 1;
+    flex-grow: 0;
 }
 
 
@@ -23,7 +23,7 @@ body {
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ button {
     background-color: #1F2937;
     border-radius: 10px;
     color: ghostwhite;
-    font-family: Georgia;
+    font-family: Calibri;
     font-size: 15px;
 }
 
@@ -83,4 +83,111 @@ button {
     font-family: Calibri;
     font-size: 25px;
     font-style: italic;
+    margin-bottom: 40px;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.subimages {
+    width: auto;
+    height: 180px;
+}
+
+.image-column-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+.image-column-one,
+.image-column-two,
+.image-column-three,
+.image-column-four {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-items: center;
+    gap: 10px;
+}
+
+.image-info {
+    font-size: 19px;
+    font-family: Calibri;
+}
+
+.recommendations {
+    display: flex;
+    background-color: #E5E7EB;
+    padding: 80px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+}
+
+.rec-text {
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+    height: auto;
+    color: #1F2937;
+    font-family: Calibri;
+}
+
+.owner {
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 550px;
+    font-family: Calibri;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: auto;
+    margin-left: 340px;
+    border: solid;
+    padding: 30px;
+    border-radius: 10px;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    margin-bottom: 60px;
+}
+
+.end-text {
+    font-size: 16px;
+    font-family: Calibri;
+    color: whitesmoke;
+}
+
+.end-texts {
+    display: flex;
+    flex-direction: column;
+}
+
+.end-text.one {
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footer-text {
+    font-size: 15px;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Calibri;
 }
