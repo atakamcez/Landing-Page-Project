@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    flex: 1;
 }
 
 
@@ -8,7 +9,16 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
-    padding: 32px;
+    padding: 24px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.sub-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
 }
 
 ul {
@@ -20,7 +30,7 @@ ul {
 }
 
 .logo {
-    font-size: 30px;
+    font-size: 25px;
     color: #F9FAF8;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 10px;
@@ -30,4 +40,47 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.img-1 {
+    width: 400px;
+    height: auto;
+}
+
+.hero-text {
+    font-size: 48px;
+    font-weight: 600;
+    font-family: Calibri;
+    font-style: italic;
+}
+
+.subhero-text {
+    flex-direction: column;
+}
+
+.column {
+    width: 500px;
+    height: 200px;
+    font-size: 20px;
+    font-family: Calibri;
+}
+
+button {
+    padding: 8px 50px;
+    margin-left: 125px;
+    background-color: #1F2937;
+    border-radius: 10px;
+    color: ghostwhite;
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+.info-text {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 10px;
+    color: #F9FAF8;
+    font-family: Calibri;
+    font-size: 25px;
+    font-style: italic;
 }
